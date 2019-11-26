@@ -1,0 +1,13 @@
+:: files ::
+Operations.qs
+:: qsim ::
+:: references ::
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Intrinsic.dll
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.Common.dll
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.Core.dll
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulators.dll
+C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.standard\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Standard.dll
+C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll
+:: command ::
+dotnet "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.development.kit\0.10.1911.1607\build\../tools/qsc/Microsoft.Quantum.CsharpGeneration.App.dll"  --qst QSharpFinalProject --input "Operations.qs" --references "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Intrinsic.dll" "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.Common.dll" "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.Core.dll" "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulation.QCTraceSimulatorRuntime.dll" "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.simulators\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Simulators.dll" "C:\Users\Sneh Mehta\.nuget\packages\microsoft.quantum.standard\0.10.1911.1607\lib\netstandard2.1\Microsoft.Quantum.Standard.dll" "C:\Program Files\dotnet\sdk\NuGetFallbackFolder\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll" --output obj\qsharp\src\
